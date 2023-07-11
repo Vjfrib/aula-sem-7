@@ -1,3 +1,5 @@
+import { funcJogo } from rouge
+
 const rls = require("readline-sync")
 
 
