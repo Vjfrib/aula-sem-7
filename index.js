@@ -17,6 +17,9 @@ function funcMenu (indice){
     if (indice === 1){
         console.clear();
         console.log("foi pro jogo");
+    }else if (indice === 2){
+      console.clear();
+        console.log("Foi para dificuldades");
     }
     else{
         console.log("saiu");
@@ -28,4 +31,4 @@ exibirMenu();
 var interruptor = rls.questionInt("\n Digite sua option: ")
 //chamada 2
 funcMenu(interruptor);
-}while( interruptor != 1)
+}while(interruptor != 1 || interruptor != 2)
