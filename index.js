@@ -1,4 +1,4 @@
-import { funcJogo } from rouge
+import { funcJogo, funcDois } from rouge
 
 const rls = require("readline-sync")
 
